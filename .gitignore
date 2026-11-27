@@ -1,0 +1,45 @@
+# Secrets and key material
+# ·················
+# This repository is public and carries no secret key material by design.
+# These patterns stay broad anyway: a false positive costs one `git add -f`, a false
+# negative is unrecoverable once pushed.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*.secrets.*
+*.local.*
+# Backstop against committing internal working documents.
+*.private.*
+*.internal.*
+
+# Editors and OS
+# ·················
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Corpus scope
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# This file excludes no specification. Publishing one is an addition, and
+# nothing else moves: a corpus proof certifies the documents its rules domain is
+# made of (rules-domain/1 Section 13.3), so no existing proof is disturbed.
+#
+# What is published is what `normative/index.md` lists. That index is the
+# authority on the corpus's extent — not this file.
+

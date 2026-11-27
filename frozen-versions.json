@@ -1,0 +1,50 @@
+{
+  "format": "certcrypt-frozen-versions/1",
+  "algorithm": "SHA3-256(path || NUL || bytes || NUL, sorted by path)",
+  "sets": [
+    {
+      "id": "public-v1",
+      "status": "Frozen",
+      "roots": [
+        { "path": "normative/ecosystem/operator/operator.domain-binding/1" },
+        { "path": "normative/ecosystem/operator/operator.recognition/1" },
+        { "path": "normative/ecosystem/settlement/capacity.commitment/1" },
+        { "path": "normative/ecosystem/settlement/capacity.evidence/1" },
+        { "path": "normative/ecosystem/settlement/capacity.holder-authorization/1" },
+        { "path": "normative/ecosystem/settlement/settlement-material/1" },
+        { "path": "normative/ecosystem/settlement/settlement.aggregated.xrpl/1" },
+        { "path": "normative/ecosystem/settlement/settlement.binding/1" },
+        { "path": "normative/ecosystem/verification/verification-package/1" },
+        { "path": "normative/ecosystem/verification/verifier-toolkit/1" },
+        { "path": "normative/foundation/composite-signature/1" },
+        { "path": "normative/foundation/rules-domain/1" },
+        { "path": "normative/foundation/security-model/1" },
+        {
+          "path": "normative/foundation/system-domain/1",
+          "exclude": ["registry/"]
+        },
+        { "path": "normative/foundation/system-foundation/1" },
+        { "path": "normative/foundation/system-manifest/1" },
+        { "path": "normative/models/independence.proof/1" },
+        { "path": "normative/profiles/subject.ai-decision/1" },
+        { "path": "normative/profiles/subject.binary/1" },
+        { "path": "normative/profiles/subject.collection/1" },
+        { "path": "normative/profiles/subject.context-snapshot/1" },
+        { "path": "normative/profiles/subject.email/1" },
+        { "path": "normative/profiles/subject.text/1" },
+        { "path": "normative/protocols/CCCP/1" },
+        { "path": "normative/protocols/CCSP/1" },
+        { "path": "normative/protocols/CCVP/1" },
+        { "path": "normative/protocols/commitment/collection.merkle-sha3-256/1" },
+        { "path": "normative/protocols/commitment/holder-keyset.merkle-sha3-256/1" },
+        { "path": "normative/protocols/settlement/submission-set/1" }
+      ],
+      "files": [
+        "normative/foundation/system-domain/1/registry/certcrypt/index.md",
+        "normative/foundation/system-domain/1/registry/certcrypt/rules/2026-01.md",
+        "normative/foundation/system-domain/1/registry/certcrypt/system-foundation.json"
+      ],
+      "content_sha3_256": "f407a25980fa7c69b779f715ef26b0851f8a1c9d0dd813a7070f49e80d84f2aa"
+    }
+  ]
+}

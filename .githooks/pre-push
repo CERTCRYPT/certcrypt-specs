@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Refuse a push whose specs carry a broken or misdirected section reference or
+# relative link. Same check as .github/workflows/references.yml.
+# Install once per clone: git config core.hooksPath .githooks
+set -u
+cd "$(git rev-parse --show-toplevel)"
+if ! python3 scripts/check-references.py --quiet; then
+  echo "pre-push: section references or links do not resolve (python3 scripts/check-references.py)" >&2
+  exit 1
+fi
+if ! python3 scripts/check-brandword.py; then
+  echo "pre-push: the normative text marks up the CERTCRYPT name (python3 scripts/check-brandword.py)" >&2
+  exit 1
+fi
+if ! python3 scripts/check-frozen-versions.py; then
+  echo "pre-push: a frozen specification changed in place (python3 scripts/check-frozen-versions.py)" >&2
+  exit 1
+fi

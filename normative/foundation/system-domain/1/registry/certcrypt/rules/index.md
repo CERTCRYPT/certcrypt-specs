@@ -1,0 +1,101 @@
+# rules-domain/1 · registered rules domains
+
+**Identifier:** `rules-domain/1/registry`
+
+**Type:** Rules-Domain Registry Index
+
+**Layer:** Foundation
+
+> This document is **informative**.
+> Normative rules for the registered instances are defined exclusively in their respective registry entries listed below.
+
+---
+
+## Purpose
+
+This page indexes the rules-domain instances registered under [rules-domain/1](../../../../../rules-domain/1/specification.md) for the active CERTCRYPT public corpus.
+
+Each registered entry defines the exact concrete parameters of one rules-domain instance: system-domain binding, permitted settlement profile and its parameters, settlement-reference resolution, finality profile, settlement-material contract, capacity-consumption interpretation, authorization-to-consumption bridge, and leaf-assignment interpretation.
+
+## Active registered instances
+
+| `rules_version` | Entry | Text | Corpus proof | Verification package |
+| --- | --- | --- | --- | --- |
+| `rules/2026-01` | [2026-01](./2026-01.md) | Final | Emitted 2026-11-26, `subtree_root` `17e3a74a4fd05b039da9f740a138c36d353f561d49726c00351843bb518364ff` | [`verification/rules/rules-2026-01/`](../../../../../../../verification/rules/rules-2026-01/verification-package.json) |
+
+"Final" means the text will not change: it is the text the corpus proof
+certifies. The proof alone does not make an artifact valid under the rules
+domain: a verifier accepts artifacts under `rules/2026-01` only once it carries
+that `subtree_root` as the corpus commitment of `rules/2026-01`, and fails closed
+without it (`rules-domain/1` Section 13.3.1). The entry's own "Frozen" status
+refers to its text in the same sense.
+
+## Corpus proofs
+
+Each registered rules domain is certified by one corpus proof: the
+`independence.proof/1` proof over the documents that rules domain selects, as
+required by [rules-domain/1](../../../../../rules-domain/1/specification.md) Section 13.3.
+
+The proof is published beside the corpus as a `verification-package/1`, under
+`verification/rules/` at the root of this repository, per Section 13.3.4. That package
+carries the proof and states the recomputation procedure; the documents it
+certifies are the ones in this repository, so obtaining both is one retrieval and
+the check needs nothing else. The table above points to it.
+
+### Verifying a rules text
+
+The corpus proof lets anyone confirm that the text of a rules domain is the
+authentic one, without trusting where it was obtained: this repository, the
+documentation site and any mirror are equally untrusted. For `rules/2026-01` the
+package is published as three files:
+
+- [`verification-package.json`](../../../../../../../verification/rules/rules-2026-01/verification-package.json):
+  the proof, as a `verification-package/1`;
+- [`system-foundation.json`](../../../../../../../verification/rules/rules-2026-01/system-foundation.json): the
+  `system-foundation/1` it is verified against;
+- [`corpus.json`](../../../../../../../verification/rules/rules-2026-01/corpus.json): the certified set (one
+  document), its collection root and the proof's `subtree_root`.
+
+The check takes four steps and no CERTCRYPT service:
+
+1. Obtain the registry entry and the package.
+2. Canonicalize the entry under `subject.text/1`, compute its leaf with the
+   certificate's nonce, and fold the leaves into the collection root.
+3. Compare that root and the number of documents with the certificate, and the
+   proof's `subtree_root` with the corpus commitment the verifier carries for
+   `rules/2026-01`. Any difference fails closed.
+4. Validate the proof itself under `independence.proof/1`.
+
+The JavaScript verifier toolkit performs steps 2 to 4 (`verifyRulesCorpus`), but
+it is not required. The complete procedure is in
+[`verification/rules/README.md`](../../../../../../../verification/rules/README.md).
+
+They are listed here, and not in the registry entries themselves, for a reason
+that is structural rather than editorial. A registry entry is part of the set its
+own corpus proof certifies, so a proof reference written into it would be a value
+derived from the very bytes the proof committed to: recording it would change
+those bytes, and the authentic entry would fail its own verification. Index pages
+carry no normative text and lie outside every certified set, which is what makes
+them the one place a proof reference can be published without that circularity.
+
+Consequently this page is informative in the strict sense: it helps a reader
+locate a proof, and it establishes nothing. A verifier does not depend on it. Under
+Section 13.3 the proof is self-locating — it carries the `rules_version` it
+certifies, and no more than one proof may be presented for the same
+`subtree_root` under the same `system_id` and `rules_version` — so a verifier
+resolves it from the artifact under evaluation, never from this table.
+
+A package marked "pending corpus proof" is published when the corpus proof of
+that rules domain is emitted, which happens after its text is final. While it is
+pending, no artifact under that rules domain can be validated, on the
+same fail-closed basis as an unrecorded `bootstrap_system_root_fingerprint`.
+
+## Boundary
+
+Only registry entries listed in this page are registered under the active corpus. Any unlisted `rules_version` MUST NOT be accepted by conforming verifiers.
+
+A registered entry is immutable once frozen. Binding identifier changes are not in-place modifications of an existing entry; they are new registry entries under a new `rules_version` identifier.
+
+## One-line summary
+
+The rules-domain registry indexes the immutable concrete rules-domain instances registered under `rules-domain/1` for the active CERTCRYPT public corpus, of which `rules/2026-01` is currently the only registered entry.

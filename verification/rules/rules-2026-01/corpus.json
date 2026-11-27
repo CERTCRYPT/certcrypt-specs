@@ -1,0 +1,12 @@
+{
+  "rules_version": "rules/2026-01",
+  "collection_profile": "subject.collection/1",
+  "leaf_profile": "subject.text/1",
+  "documents": [
+    "normative/foundation/system-domain/1/registry/certcrypt/rules/2026-01.md"
+  ],
+  "declared_cardinality": 1,
+  "collection_root": "05773fbdb713788600f0dbec5ac9409047503e6836fd0ba8a866fd57838a9e68",
+  "subtree_root": "17e3a74a4fd05b039da9f740a138c36d353f561d49726c00351843bb518364ff",
+  "procedure": "verification/rules/README.md, \"How to verify\""
+}

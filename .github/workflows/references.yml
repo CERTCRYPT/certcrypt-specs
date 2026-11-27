@@ -1,0 +1,20 @@
+name: references
+
+# Every section reference ("§13.2", "Section 9", "`submission-set/1` §8.1") and
+# every relative link in the corpus must resolve to the section that carries
+# the cited content. A broken or misdirected reference fails the check.
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/check-references.py --quiet
+      - run: python3 scripts/check-brandword.py
+      - run: python3 scripts/check-frozen-versions.py

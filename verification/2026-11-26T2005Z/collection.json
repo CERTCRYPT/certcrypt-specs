@@ -1,0 +1,629 @@
+{
+  "repository": "certcrypt-specs",
+  "certification": "2026-11-26T2005Z",
+  "issued_under": "rules/2026-01",
+  "collection_profile": "subject.collection/1",
+  "leaf_profile": "subject.binary/1",
+  "files": [
+    {
+      "path": ".githooks/pre-push",
+      "sha3_256": "fee0fd509b0b52db0991b2aebc9c8ab01bd66f39581fe149ea2c448a8cf47a5c"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha3_256": "2ace6a0e9639043fc1f94dafaf8d25e749a7da3f22ae441b0552d88eaf359d87"
+    },
+    {
+      "path": ".github/workflows/references.yml",
+      "sha3_256": "af2960c8e593c76a8fa0be34e9f83b863a6d8b820d8428152c54a551208585a3"
+    },
+    {
+      "path": ".gitignore",
+      "sha3_256": "81d8c20c1a0713ba1c17f999ec64275e6e5c1c3f82a821db09b9adf4bd312975"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha3_256": "96dc04e5bc77e4f3db853954a99df072bbab7595095b8b90a3764687a0247323"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha3_256": "178906dbd15de74ef5d111876bc7b7faeec41ceae4c1c76b448dc98fa7631475"
+    },
+    {
+      "path": "LICENSE",
+      "sha3_256": "781bb118a03ab698f629da9d9d2cb11112fbb43d8a0af960ad9c4942088ccdc7"
+    },
+    {
+      "path": "README.md",
+      "sha3_256": "bff6bbab5b5d208def5ea8f231c67413a26390b8e37e30e1a8b29bec8ca3e6ce"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha3_256": "61ee471a23ae5bf022f084ee22e836a85a4382a0da948b7e8a89fd6589d97c6c"
+    },
+    {
+      "path": "VERSION",
+      "sha3_256": "48e4e254588d057b4fb679f36e6299c5061a7826ac586a8354a8fdd0083312cd"
+    },
+    {
+      "path": "frozen-versions.json",
+      "sha3_256": "eba0babf5692daecdb713b50d9dc2431a7c76f960c493fdd3e7766e27e8a5b9d"
+    },
+    {
+      "path": "normative/ecosystem/index.md",
+      "sha3_256": "742022e438a71417b1268adb99d83bc5101120e6e7858cbcfd5de4656180338f"
+    },
+    {
+      "path": "normative/ecosystem/operator/index.md",
+      "sha3_256": "bc72c0a1f1a1b20f4a7b98336a5ff2728440284f8577959d6ab6ee359ae3639b"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.domain-binding/1/index.md",
+      "sha3_256": "c8e814fd752fce20c1ec2a7900d1f19d91773e30faa7a2e56026d6c9db7488c3"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.domain-binding/1/overview.md",
+      "sha3_256": "00bbc8cd1366a35b9487f7f98f6692d82491bcca4d60312df79e80e01a640214"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.domain-binding/1/specification.md",
+      "sha3_256": "ce76a5e22d1b129f79eba4f1d85f9b12bded4a853a0c679b7491f14e5ffad74a"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.domain-binding/index.md",
+      "sha3_256": "d4152980fb361882e56868369de4782093e799bbdd8cc7acc3d77c54e7e3ccff"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.recognition/1/index.md",
+      "sha3_256": "0cdcf2370951ea3a0697a59a5b9263c2b6fd00a9660c840faf6cebd1a3c7b0fe"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.recognition/1/overview.md",
+      "sha3_256": "4bfb0bd814710050e233a43d3652dd0ad51012ab91a928e0b3d0612733672ea8"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.recognition/1/specification.md",
+      "sha3_256": "ec109ef2d79dbac9ac793e541b38e1ea5a3e0435b552cb79f14fec2b0f3aff49"
+    },
+    {
+      "path": "normative/ecosystem/operator/operator.recognition/index.md",
+      "sha3_256": "adeab12074ad3f0602a15d0b0d59bd47488deaf75772b831c1741e7d1b513128"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.commitment/1/index.md",
+      "sha3_256": "7b120bbbde1b99581ad1bedfd7844223acb2652119b504ca06966f1a2d148b90"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.commitment/1/overview.md",
+      "sha3_256": "dc1188cd7eb04ea4c29f8ad93a19eb1a03b7d2c6e5988ad3421adbfad09d04b7"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.commitment/1/specification.md",
+      "sha3_256": "b7a4cf8c272c7b956b1472b88322fd577b864aecd504300e8eb0eb2ef4742119"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.commitment/index.md",
+      "sha3_256": "94a7ec5ac97bab90a36c11eff9bb4b09f8c30983c0ef6341f09596e8f8e63231"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.evidence/1/index.md",
+      "sha3_256": "9019bee12ec4235aff5655f80295fccd8e2d0a5570bc9ab5ddd68be3f25f6bb4"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.evidence/1/overview.md",
+      "sha3_256": "bdd229fc6f70b80f8f21a50e7e82d53a22b2d96bd16f423de329898c7951f13c"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.evidence/1/specification.md",
+      "sha3_256": "606c859f349f39eea0c04b0b2fcd3a09550f03d5918ced33665cca94c19f03b2"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.evidence/index.md",
+      "sha3_256": "a08ff144263f608dff987703e9a70f3a06011ad846ceb90bb5c9aa0bcfd6e5a0"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.holder-authorization/1/index.md",
+      "sha3_256": "deb688e0b01764f8d08b1229e606f1ee1bdc7592cb5c1c6928a10ff94faa12c9"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.holder-authorization/1/overview.md",
+      "sha3_256": "b6047777a8ececfe12c4989d3d808e029437b892ae128437e54e473af13b4c33"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.holder-authorization/1/specification.md",
+      "sha3_256": "1b36865d722e285aee61a35e4f28db7044c0911972491c21c068f35ec2a26f95"
+    },
+    {
+      "path": "normative/ecosystem/settlement/capacity.holder-authorization/index.md",
+      "sha3_256": "2618f46b0a19df4fdfed77e505cb89c5a54c08173f0d195fe63c44eb28a5ccbd"
+    },
+    {
+      "path": "normative/ecosystem/settlement/index.md",
+      "sha3_256": "fef451e6b52e2a649ebbd2485e9bd4227479b041c5c5c91f857a3a629187ee7e"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement-material/1/index.md",
+      "sha3_256": "c57ab0c41575e3a36207a8bfd957b9bafbc4d2523bf91e915d3c96dde0a34184"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement-material/1/overview.md",
+      "sha3_256": "3c2244f36f641b0626c23ba1d1d47d7346ba3970add36489c5e1d60f7d45d484"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement-material/1/specification.md",
+      "sha3_256": "71dbc79f52d0969558ebbe8f3d6866efe3ccc676d27915fc7d2b05c93d18e833"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement-material/index.md",
+      "sha3_256": "3c812fbd2b8504ebaeb9b06cf9deaec66e276b7a9682c466cb4171b2266aa5d1"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.aggregated.xrpl/1/index.md",
+      "sha3_256": "1e006c4cca0f08b15920e494d2bf10d8b705e65ed204135484bd610f4234b593"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.aggregated.xrpl/1/overview.md",
+      "sha3_256": "9fe5147fae8ab717f7b56748ffe735cc501245d38949a50ed037263f94aefce8"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.aggregated.xrpl/1/specification.md",
+      "sha3_256": "c4494eb44eccc4b31eb45c6e4d55ed1568d63c6f451460c6cff7b40fa160cc5c"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.aggregated.xrpl/index.md",
+      "sha3_256": "92b8b4f123484c48bdda7bbdfc20a2232697235a986ea5fca90cdbbecbe7527b"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.binding/1/index.md",
+      "sha3_256": "df15f4131225cb2f848bee862c1898132d33b245a40babc4bcb8b8899bfb38b1"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.binding/1/overview.md",
+      "sha3_256": "b1c1e318c211d76cff9f3d2e978b765a99b82eff51c4e2ce82da1d67db155c19"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.binding/1/specification.md",
+      "sha3_256": "ccc8bc8739c75ffb8b55948757bf737a89104a2fcf96171eb88c479cae85337a"
+    },
+    {
+      "path": "normative/ecosystem/settlement/settlement.binding/index.md",
+      "sha3_256": "cd94e9f78d49feca0cded04153eba77c97f0f257744ee5065002c459f3bd3d89"
+    },
+    {
+      "path": "normative/ecosystem/verification/index.md",
+      "sha3_256": "253a7aa7bc6d189d3e659fccc10e0a3cbf4e5587e997c816aeee3169c9e77696"
+    },
+    {
+      "path": "normative/ecosystem/verification/verification-package/1/index.md",
+      "sha3_256": "e09219b29947e1cf38542f48d78f9e713b6ed0288386273863e0cbc3a8f76f20"
+    },
+    {
+      "path": "normative/ecosystem/verification/verification-package/1/overview.md",
+      "sha3_256": "84fe6312913c7dc6444a5fa350edc07a513ed99bd4dd2ffcc19b6e61a3c37b59"
+    },
+    {
+      "path": "normative/ecosystem/verification/verification-package/1/specification.md",
+      "sha3_256": "e1e06c10cdf7cdbdd98e092ca8003ba3510702ba5be4ab6c35f54a0377631ba2"
+    },
+    {
+      "path": "normative/ecosystem/verification/verification-package/index.md",
+      "sha3_256": "dfa2152a77fb63eda9540cd9370c7a1a17c770fd813ecc542fd4a82c8a1e8ed8"
+    },
+    {
+      "path": "normative/ecosystem/verification/verifier-toolkit/1/index.md",
+      "sha3_256": "e6614a923c2627c7c5c91cf240ebe62712ce07c817f7e08882cd6aaf0045d5fc"
+    },
+    {
+      "path": "normative/ecosystem/verification/verifier-toolkit/1/overview.md",
+      "sha3_256": "eaa8a3be246a461dcee62c46fde402b516c96c609ec9746bff50efa577c8abdf"
+    },
+    {
+      "path": "normative/ecosystem/verification/verifier-toolkit/1/specification.md",
+      "sha3_256": "f164d7d6bf2b79e45edfe685fac07e97deeb2dddad0cc9f626686f6db48edefa"
+    },
+    {
+      "path": "normative/ecosystem/verification/verifier-toolkit/index.md",
+      "sha3_256": "21de4c18e79d77f06e31d7ed3ce406285f600f5f9247ac2bbe63b69694b55437"
+    },
+    {
+      "path": "normative/foundation/composite-signature/1/index.md",
+      "sha3_256": "774f5554aa60bb847d5c50d52830e820ec6ebb7ff5417604fdfe3071c173a1e9"
+    },
+    {
+      "path": "normative/foundation/composite-signature/1/overview.md",
+      "sha3_256": "b6b08410fa5f55dcfa0d257101618b2dcf45a29205ff03d88a78b12567e0d34c"
+    },
+    {
+      "path": "normative/foundation/composite-signature/1/specification.md",
+      "sha3_256": "e00d4b73ccc0de485b65d944a5ebc845eb57d3aa81c8a9e43d6e428a4ff19b64"
+    },
+    {
+      "path": "normative/foundation/composite-signature/index.md",
+      "sha3_256": "72216fc326ac5ab28e8fb9397be4fb489faac8b5eb5cf6a8df6a744c667b75ed"
+    },
+    {
+      "path": "normative/foundation/index.md",
+      "sha3_256": "b305dc77d2665e01bd2995ea6c65a19924e499bafcc6509b80172d5d12cad517"
+    },
+    {
+      "path": "normative/foundation/rules-domain/1/index.md",
+      "sha3_256": "0dfab524c69add258df4a525c27a1e1fc7236fd677aad406596e73e32d0e99ad"
+    },
+    {
+      "path": "normative/foundation/rules-domain/1/overview.md",
+      "sha3_256": "c1e7a5b7f260c085c69c7372d919172591d5761645035c9a7a03f58b67045722"
+    },
+    {
+      "path": "normative/foundation/rules-domain/1/specification.md",
+      "sha3_256": "517a5b29185db163dc2e49740835c2902fe70069d7a7dfd0663d4d8f8fda4c56"
+    },
+    {
+      "path": "normative/foundation/rules-domain/index.md",
+      "sha3_256": "d912d9680c542d8e9f0acfd44e7f0a5ec6537bbdb72efafce3d3518651547eb8"
+    },
+    {
+      "path": "normative/foundation/security-model/1/evolution-and-freeze-policy.md",
+      "sha3_256": "d6690df60386f03d8f70db235cd8a6fba646dc0344c32e441d2dd601103ad9a6"
+    },
+    {
+      "path": "normative/foundation/security-model/1/failure-modes-and-safe-failure.md",
+      "sha3_256": "5e53c9a1a52077692e8c0b35680fa5611283e6733e5b4929738f77950ad0b982"
+    },
+    {
+      "path": "normative/foundation/security-model/1/index.md",
+      "sha3_256": "1a27dc859745450718ede52a773c7b5a0bce43db04e6d13a4b074740b92b3c19"
+    },
+    {
+      "path": "normative/foundation/security-model/1/invariant-threat-mapping.md",
+      "sha3_256": "1bffb842e17dc2c60635fa4f8c02171d1eadd2dd50b550978a06ac2aa326b9a4"
+    },
+    {
+      "path": "normative/foundation/security-model/1/overview.md",
+      "sha3_256": "cbb7901fcedcefe7f5cdd53efc4bd638d6f207142bd7c9d44041bcc1c02f48f7"
+    },
+    {
+      "path": "normative/foundation/security-model/1/security-guarantees-and-non-claims.md",
+      "sha3_256": "0a550e44fd631968dfe9eae4c5e384949146b865b86f393d511060cebaaa441d"
+    },
+    {
+      "path": "normative/foundation/security-model/1/security-invariants.md",
+      "sha3_256": "4e097d03b26ecc9cb5cd73b8ab40a4f2a0a2f8d695a9745ad8952f7d228fd24e"
+    },
+    {
+      "path": "normative/foundation/security-model/1/specification.md",
+      "sha3_256": "576a57200796e7d5c75d85e07981a7197e78e7bf3008ea27fdf753db41b1ee89"
+    },
+    {
+      "path": "normative/foundation/security-model/1/threat-model.md",
+      "sha3_256": "b52398be8e12f0fc7cc43f6eae9ef6ff390a04cbe496d6d9fe05c28a54501d72"
+    },
+    {
+      "path": "normative/foundation/security-model/index.md",
+      "sha3_256": "20e0bc50d354008bffbdc1156f1210330382316622ec72ba051cb7e359c641a9"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/index.md",
+      "sha3_256": "a02ffcc2e2465c824ac3c5da0907722327ba0e2a5e0d6472215914c7a00533da"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/overview.md",
+      "sha3_256": "0a828575ce56dd126e3042ece9b15948d00e026e02f1da9560ada828518ee581"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/registry/certcrypt/index.md",
+      "sha3_256": "b94ad9e32b98942fd5394ab31879e8cd525146bf7def65834f35027949576a9f"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/registry/certcrypt/rules/2026-01.md",
+      "sha3_256": "ebf10b462c9212216afaf5ed3d79df70b16ecea5c2c4c087f199a35eebd05a28"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/registry/certcrypt/rules/index.md",
+      "sha3_256": "6dd9d1352245a3338fa486a34a5cbb0f1d3eee20d64b0c24f9bbb9f9bf064fcd"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/registry/certcrypt/system-foundation.json",
+      "sha3_256": "4b0304263377a6ba704070dcf5a49cb9039dd556360e9151bae5f67415fff8c4"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/registry/index.md",
+      "sha3_256": "4f97d5d60f29bf2a78a2b603098b28bf98a35b00067ac1e4210c4bbd4541b016"
+    },
+    {
+      "path": "normative/foundation/system-domain/1/specification.md",
+      "sha3_256": "b047f734a6d975bc16150cba69fb85793f9c35f9b52556d2f1b5873476048c09"
+    },
+    {
+      "path": "normative/foundation/system-domain/index.md",
+      "sha3_256": "19fb3ffb1b4f94109989a57c78b18183734441336cebbe7c3608772d81c7f9ab"
+    },
+    {
+      "path": "normative/foundation/system-foundation/1/index.md",
+      "sha3_256": "9e982fef89319c7725f4c913df2c1c11123704748ca775ef73eeaf878a952834"
+    },
+    {
+      "path": "normative/foundation/system-foundation/1/overview.md",
+      "sha3_256": "4176baa342f20c27806d9fd3f5b75bd7dd38c78ad6b80dabea14e8d14a6ee96e"
+    },
+    {
+      "path": "normative/foundation/system-foundation/1/specification.md",
+      "sha3_256": "03bc8a3d4f8333e2723456141d6c69800de503dcae4b37a717c52c965fc61df3"
+    },
+    {
+      "path": "normative/foundation/system-foundation/index.md",
+      "sha3_256": "055b0b87cc65c7cfee29bcea18d6c08728c5721d56ee15d409136a3c496eab79"
+    },
+    {
+      "path": "normative/foundation/system-manifest/1/index.md",
+      "sha3_256": "b39381f8e26e9177b552ed774909867165ae030b33867e297751707ca6ef7bd6"
+    },
+    {
+      "path": "normative/foundation/system-manifest/1/overview.md",
+      "sha3_256": "f31b314e3f7a820035420d80db5ce29bfd1cdffbd5c1de8d07f314db0aaf8e1a"
+    },
+    {
+      "path": "normative/foundation/system-manifest/1/specification.md",
+      "sha3_256": "c5721de3ed1d07bf8eb9593ed19d88cc5dde65bc00667f7d3d541cf0623172e4"
+    },
+    {
+      "path": "normative/foundation/system-manifest/index.md",
+      "sha3_256": "f1fc2992d7d100193802967f2b45efe79f8966b79f396dd97d0520c156a0817b"
+    },
+    {
+      "path": "normative/index.md",
+      "sha3_256": "434fb93a706474c1119fd5317faebb1ca60f773a4b6237707fd237d921a9c84b"
+    },
+    {
+      "path": "normative/models/independence.proof/1/index.md",
+      "sha3_256": "2e9882ce5d00adf27eaae0ad142d7ea20244828d4c48fbde52065f6c735615e1"
+    },
+    {
+      "path": "normative/models/independence.proof/1/overview.md",
+      "sha3_256": "a6913e246664a51efba0f34f7c7c4585792793d4e2bee05a936bdb25df552c71"
+    },
+    {
+      "path": "normative/models/independence.proof/1/specification.md",
+      "sha3_256": "d9da6bc767d542e00b349aa918680725c8df2af35142cdaa73db3e1a8862d618"
+    },
+    {
+      "path": "normative/models/independence.proof/index.md",
+      "sha3_256": "b4b8fde9807a56624c3f6e2694adc0dd0dc201d119da40a33a59c1220f426062"
+    },
+    {
+      "path": "normative/models/index.md",
+      "sha3_256": "f4d2b6ca18e3a5ea30d61cda4103c03359bb6fcc76505c221bc05c719e189dc0"
+    },
+    {
+      "path": "normative/profiles/index.md",
+      "sha3_256": "fcabe6066a1201ab3588a4ec658bff456cc7179eebede0cdb031a1356e90235c"
+    },
+    {
+      "path": "normative/profiles/subject.ai-decision/1/index.md",
+      "sha3_256": "b3f24b4ce230c8b743651136525a7cbdd1079de496c48ea2b9eaf47a506c9c8d"
+    },
+    {
+      "path": "normative/profiles/subject.ai-decision/1/overview.md",
+      "sha3_256": "d2127318b0632e1015630d8923da52c2e1688c5aa22ce9c6f8ec8cc496de18da"
+    },
+    {
+      "path": "normative/profiles/subject.ai-decision/1/specification.md",
+      "sha3_256": "4eac3905e7bd02771b5334145c7b84b79eae8fe0219887990272b4b999126e88"
+    },
+    {
+      "path": "normative/profiles/subject.ai-decision/index.md",
+      "sha3_256": "eca17777d445752ea4c069d6af1fd2ebb1ff8a583fae17919149fe46c6150674"
+    },
+    {
+      "path": "normative/profiles/subject.binary/1/index.md",
+      "sha3_256": "2c2d4d8101ba37bef4548761f32c1d265c0bd318046a35ccd24da46749bfadc2"
+    },
+    {
+      "path": "normative/profiles/subject.binary/1/overview.md",
+      "sha3_256": "b4fa9fa8e351ee7525c0f19f64d6256807d0f05b948321df7373ad7ecd938742"
+    },
+    {
+      "path": "normative/profiles/subject.binary/1/specification.md",
+      "sha3_256": "8ba0a32a20f233cb5dc0d4b775ed9949d330a8f05ee639a254800590ad0d668a"
+    },
+    {
+      "path": "normative/profiles/subject.binary/index.md",
+      "sha3_256": "302c420c8cc90c92340acb1b43761140c0ade9ba10e2661ae48fa04d26cd4506"
+    },
+    {
+      "path": "normative/profiles/subject.collection/1/index.md",
+      "sha3_256": "e5e5bef2fb7ee2a38eced522bc6f9e83bb2c3dc61fa3a105fd4226d5c81efe70"
+    },
+    {
+      "path": "normative/profiles/subject.collection/1/overview.md",
+      "sha3_256": "590371cc8c6b53dbbb778bcf5ef3f99560f462447d6807b2dfead1bf538bd81b"
+    },
+    {
+      "path": "normative/profiles/subject.collection/1/specification.md",
+      "sha3_256": "66ce6f69453531928f1837dd8c9ec3ec90bb3230314a13e92cfd4247df416674"
+    },
+    {
+      "path": "normative/profiles/subject.collection/index.md",
+      "sha3_256": "51e8aecad818ae479eaedcf1683a23f50a9a2eaa7f4bb5580cfa59662c690ecd"
+    },
+    {
+      "path": "normative/profiles/subject.context-snapshot/1/index.md",
+      "sha3_256": "d450a1206a076b7b2c113779ae7f709cc6d5e34dfc88c2e47e3686ee3b683a29"
+    },
+    {
+      "path": "normative/profiles/subject.context-snapshot/1/overview.md",
+      "sha3_256": "cae23ad4d8ec454f3f90d226759607617d577a03a72a6c34d573e5cb074c0b91"
+    },
+    {
+      "path": "normative/profiles/subject.context-snapshot/1/specification.md",
+      "sha3_256": "fd32165c9edc76eccd3ab37e705834fc8069d89913637c69436ab21bfaa6928d"
+    },
+    {
+      "path": "normative/profiles/subject.context-snapshot/index.md",
+      "sha3_256": "0607a98ffb770ffe127f6c5fdd8895c0c3c81e804c3f7e05c3dff72cdf4c761e"
+    },
+    {
+      "path": "normative/profiles/subject.email/1/index.md",
+      "sha3_256": "d37c9b9fb1a2d27c1a9c8c82207ebe2bb73dca84dde4e7976e5ae22a922079b6"
+    },
+    {
+      "path": "normative/profiles/subject.email/1/overview.md",
+      "sha3_256": "59f330e81cc205555e48816dda3326fed4a276719ff2f25294b1274898cd08e4"
+    },
+    {
+      "path": "normative/profiles/subject.email/1/specification.md",
+      "sha3_256": "f34d3ec65501cb21975c2b1877839722c08cdcc4905b2e419fac07e352a927da"
+    },
+    {
+      "path": "normative/profiles/subject.email/index.md",
+      "sha3_256": "e2f1c91cf35eccc9d6ecc31d886ac79409bf90c0fdd162bde54b01dc12bff438"
+    },
+    {
+      "path": "normative/profiles/subject.text/1/index.md",
+      "sha3_256": "383bb3d874a404ec8a225e24caed3c868407448e2ab4a3ab2cf62efd1269f501"
+    },
+    {
+      "path": "normative/profiles/subject.text/1/overview.md",
+      "sha3_256": "e42bafa8b5fbd467302e53aa1b4a52001b17a9adc701e9ad988ca5964e98041b"
+    },
+    {
+      "path": "normative/profiles/subject.text/1/specification.md",
+      "sha3_256": "4b26c05e2984a338114808de59f8cd67c31f34f37e09c64b7d2a6387e2be902a"
+    },
+    {
+      "path": "normative/profiles/subject.text/index.md",
+      "sha3_256": "57df53b23b39fbb9e93d4a1284a1b0e70ac9f0a3be4bb0787be9260bb16cb394"
+    },
+    {
+      "path": "normative/protocols/CCCP/1/index.md",
+      "sha3_256": "9efaf7eff17b25b6672df584e812ecf309793ae2667fb6e87c7eb1cedc4e3e1f"
+    },
+    {
+      "path": "normative/protocols/CCCP/1/overview.md",
+      "sha3_256": "1e94c20757c9e51b06f2f4c6acd1feca46fc3ffe0041afc9d7954c6960604307"
+    },
+    {
+      "path": "normative/protocols/CCCP/1/specification.md",
+      "sha3_256": "eaf415f56bfa17d61eeb2b50c2190d897ffdab7e7d63f34c6b4e49242cb17752"
+    },
+    {
+      "path": "normative/protocols/CCCP/index.md",
+      "sha3_256": "c644b15da3015314744bb94e2e1e689e5d407b3022a16eb50d401d410a018d57"
+    },
+    {
+      "path": "normative/protocols/CCSP/1/index.md",
+      "sha3_256": "2d0d13e5314becee949a73cf66b2cbe0351cc18281a689976bc69c0a214a0f3c"
+    },
+    {
+      "path": "normative/protocols/CCSP/1/overview.md",
+      "sha3_256": "ca246ae6f7d35ffe6ebabbe19a24547c503b8715308853c2f4ac6ae31fde3b70"
+    },
+    {
+      "path": "normative/protocols/CCSP/1/specification.md",
+      "sha3_256": "2e328c052b02787b18e85ec209bf24bdd2620cca71002304faaae20b13c80216"
+    },
+    {
+      "path": "normative/protocols/CCSP/index.md",
+      "sha3_256": "d8ee2d26dbdccaa858123b3d5cbfebfea3a4a63b721fb9976421bab3b82d3bac"
+    },
+    {
+      "path": "normative/protocols/CCVP/1/index.md",
+      "sha3_256": "a8ef995d15babdf53aaaf719e4bb8b3e8f934dde9b2104c1bdbab8f3b30e46d1"
+    },
+    {
+      "path": "normative/protocols/CCVP/1/overview.md",
+      "sha3_256": "831e47dc2d759a053832e350ea52c1ba31797c4ba79755c1d57e2e61625ff968"
+    },
+    {
+      "path": "normative/protocols/CCVP/1/specification.md",
+      "sha3_256": "0228951fb95f4daba31267b0709041b32338d5f484b132fa065cc97266a4cbdb"
+    },
+    {
+      "path": "normative/protocols/CCVP/1/verifier-consistency-tree-examples.md",
+      "sha3_256": "45735074d3b73a46dfa5cef040a38fc9d8b271591e4efed33e2b42ebabd0676f"
+    },
+    {
+      "path": "normative/protocols/CCVP/1/verifier-consistency-tree.md",
+      "sha3_256": "421318335fd0a3a32121737eda7943bb170d9dd72af487587675a1892f91a514"
+    },
+    {
+      "path": "normative/protocols/CCVP/index.md",
+      "sha3_256": "4ea09753a2ef0c758c6ca208981874125fcfce7e552fbd871702f54fd17587b9"
+    },
+    {
+      "path": "normative/protocols/commitment/collection.merkle-sha3-256/1/index.md",
+      "sha3_256": "ed40c376f31dac509cd0824758e439b682a6e9e726002b4d911492839d76131a"
+    },
+    {
+      "path": "normative/protocols/commitment/collection.merkle-sha3-256/1/overview.md",
+      "sha3_256": "bb967e273efaa9aa7a000feca4582dfcf1111f0ce106ccca2618d091ca2ee9ca"
+    },
+    {
+      "path": "normative/protocols/commitment/collection.merkle-sha3-256/1/specification.md",
+      "sha3_256": "87947dfac9c9efb8bfd2304f9c655342c3ac67b099111b5109af590473a42237"
+    },
+    {
+      "path": "normative/protocols/commitment/collection.merkle-sha3-256/index.md",
+      "sha3_256": "585a09451e75272c9322e815c6ac7d0cb9890fb7201df4a121167c35a0129420"
+    },
+    {
+      "path": "normative/protocols/commitment/holder-keyset.merkle-sha3-256/1/index.md",
+      "sha3_256": "7e41259050f69c872ae6e4ea160ee61924437eaacb7db273e58936d108f5b88b"
+    },
+    {
+      "path": "normative/protocols/commitment/holder-keyset.merkle-sha3-256/1/overview.md",
+      "sha3_256": "a47818d48ac020533de2d80600a27e6c97b29db268377d303a3ce088dd289946"
+    },
+    {
+      "path": "normative/protocols/commitment/holder-keyset.merkle-sha3-256/1/specification.md",
+      "sha3_256": "3c2d6f4e5c6692ccdafe4c36fea343a362dad1d2f32f53f316e67dbc60d45bfc"
+    },
+    {
+      "path": "normative/protocols/commitment/holder-keyset.merkle-sha3-256/index.md",
+      "sha3_256": "d2f9aead005af428b478bf4dfbd6b64f0a89053eb60977c7262f883ff39f1faa"
+    },
+    {
+      "path": "normative/protocols/commitment/index.md",
+      "sha3_256": "12740024e70f6d96c0dfa24056d4d366e0834e0d825ffdb2f0057faebc559236"
+    },
+    {
+      "path": "normative/protocols/index.md",
+      "sha3_256": "87a36008e7b7c54486a5c5daf007a13d459b11f55b9ebe767e5f0ac8864eb061"
+    },
+    {
+      "path": "normative/protocols/settlement/index.md",
+      "sha3_256": "c13cb2fdf9dbb5a84383800f21bb769e64a0f57509042acbdfd3cff04202d7bb"
+    },
+    {
+      "path": "normative/protocols/settlement/submission-set/1/index.md",
+      "sha3_256": "f8dd5983a2d709afe7d831e7b93df818d2a556501e57e30f509cc8b24edc5a28"
+    },
+    {
+      "path": "normative/protocols/settlement/submission-set/1/overview.md",
+      "sha3_256": "b9de7bde7aa02725d2adbc6427c461c6eb991941467e8346d104061a8eab9ee7"
+    },
+    {
+      "path": "normative/protocols/settlement/submission-set/1/specification.md",
+      "sha3_256": "760a9aa34a5e6dbfa24e99e4ad7d4282fd121a4a49c527cd4fde3577b439ba73"
+    },
+    {
+      "path": "normative/protocols/settlement/submission-set/index.md",
+      "sha3_256": "4665e28060f427c28fd3225695c7c619cb16c76578e4764f3de7964678ea0654"
+    },
+    {
+      "path": "scripts/check-brandword.py",
+      "sha3_256": "3f8987270607c1906d759bfcd6fff87f99463954a6fd61a2210efebf7ae8daa0"
+    },
+    {
+      "path": "scripts/check-frozen-versions.py",
+      "sha3_256": "045ed2edee8c07244c5b38534d259bd4bfaf719cde928feed91c80eb19bb99a0"
+    },
+    {
+      "path": "scripts/check-references.py",
+      "sha3_256": "c0e4f8540325ee8fbf75ea6cef58dbea64cee535f25a6e33b5f7f3c5326f5ed3"
+    }
+  ],
+  "declared_cardinality": 154,
+  "collection_root": "11ed3bc93150f3d84cebd18bebaac6f516809d1821f19417ff1fccf9e0260dd2",
+  "subtree_root": "4a7966bd5c65102e796c8376d6e90a81491e632874d390735b65cd5d2eaf90cc",
+  "procedure": "verification/README.md"
+}
